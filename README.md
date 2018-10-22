@@ -1,7 +1,7 @@
-# php-secp256k1 [![Build Status](https://travis-ci.org/kornrunner/php-secp256k1.svg?branch=master)](https://travis-ci.org/kornrunner/php-secp256k1)  [![Coverage Status](https://coveralls.io/repos/github/kornrunner/php-secp256k1/badge.svg?branch=master)](https://coveralls.io/github/kornrunner/php-secp256k1?branch=master)
+# php-secp256k1-plus [![Build Status](https://travis-ci.org/kornrunner/php-secp256k1.svg?branch=master)](https://travis-ci.org/kornrunner/php-secp256k1)  [![Coverage Status](https://coveralls.io/repos/github/kornrunner/php-secp256k1/badge.svg?branch=master)](https://coveralls.io/github/kornrunner/php-secp256k1?branch=master)
 
 ```lang=bash
-$ composer require kornrunner/secp256k1
+$ composer require chuangyeshuo\php-secp256k1-plus
 ```
 
 ## Usage
@@ -13,8 +13,8 @@ Sign a message:
 
 require_once 'vendor/autoload.php';
 
-use kornrunner\Secp256k1;
-use kornrunner\Serializer\HexSignatureSerializer;
+use chuangyeshuo\php-secp256k1-plus;
+use chuangyeshuo\Serializer\HexSignatureSerializer;
 
 $secp256k1 = new Secp256k1();
 
@@ -46,7 +46,7 @@ Verify a message:
 
 require_once 'vendor/autoload.php';
 
-use kornrunner\Secp256k1;
+use chuangyeshuo\php-secp256k1-plus;
 
 $secp256k1 = new Secp256k1();
 
